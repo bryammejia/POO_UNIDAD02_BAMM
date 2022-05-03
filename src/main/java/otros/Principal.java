@@ -4,6 +4,8 @@
  */
 package otros;
 
+import util.Auto;
+
 /**
  *
  * @author morti
