@@ -8,7 +8,7 @@ package modelo;
  *
  * @author USER
  */
-public class Estudiante {
+public class Estudiante implements IDatos, IDatosConstructores{
     
     private int codigo;
     private String nombre;
@@ -37,6 +37,30 @@ public class Estudiante {
     @Override
     public String toString() {
         return "Estudiante{" + "codigo=" + codigo + ", nombre=" + nombre + '}';
+    }
+
+    @Override
+    public String obtenerInformacion() {
+       var retorno = "Computacion";
+               return retorno;  
+    }
+
+    @Override
+    public String autor() {
+       var retorno = "Andres Mejia";
+        return retorno;
+    }
+
+    @Override
+    public int obtenerNumero() {
+        return 1;
+        
+    }
+
+    @Override
+    public boolean obtenerCostructorDefecto() {
+        return false;
+        
     }
     
     
