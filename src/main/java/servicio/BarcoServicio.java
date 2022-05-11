@@ -54,7 +54,7 @@ public class BarcoServicio implements IBarcoServicio{
 
     @Override
     public Barco modificar(int c, Barco b) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        throw new UnsupportedOperationException("Not supported yet."); 
     }
     
     
